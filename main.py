@@ -1,50 +1,50 @@
 # print("домашка")
 # print((5**2)+(12//3))
 # print((10/15)-20)
-# print('Это викторина на знание городов. Ответь на вопросы и узнай, насколько хорошо ты разбираешься в городах!')
-# question1="Как называется столица России: "
-# question2="Как называется столица Америки: "
-# question3="Как называется столица Франции: "
-# question4="Как называется столица Китая: "
-# question5="Как называется столица Бразилии: "
-# question6="В окрестностях какого города находится Пирамида Хеопса: "
-# question7="Как называется столица 2 по площади государства: "
-# true_answer1="Москва"
-# true_answer2="Вашингтон"
-# true_answer3="Париж"
-# true_answer4="Пекин"
-# true_answer5="Бразилиа"
-# true_answer6="Гиза"
-# true_answer7="Оттава"
-#
-# score=0
-#
-# answer1=input(question1)
-# if answer1==true_answer1:
-#     score+=1
-# answer2=input(question2)
-# if answer2==true_answer2:
-#     score+=1
-# answer3=input(question3)
-# if answer3==true_answer3:
-#     score+=1
-# answer4=input(question4)
-# if answer4==true_answer4:
-#     score+=1
-# answer5=input(question5)
-# if answer5==true_answer5:
-#     score+=1
-# answer6=input(question6)
-# if answer6==true_answer6:
-#     score+=1
-# answer7=input(question7)
-# if answer7==true_answer7:
-#     score+=1
-#
-# if score>=5:
-#     print("Вы набрали много баллов,вас можно считать экспертом")
-# else:
-#     print("Вы набрали мало  баллов,расширяйте свой кругозор,вам есть, куда стремится")
+print('Это викторина на знание городов. Ответь на вопросы и узнай, насколько хорошо ты разбираешься в городах!')
+question1="Как называется столица России: "
+question2="Как называется столица Америки: "
+question3="Как называется столица Франции: "
+question4="Как называется столица Китая: "
+question5="Как называется столица Бразилии: "
+question6="В окрестностях какого города находится Пирамида Хеопса: "
+question7="Как называется столица 2 по площади государства: "
+true_answer1="Москва"
+true_answer2="Вашингтон"
+true_answer3="Париж"
+true_answer4="Пекин"
+true_answer5="Бразилиа"
+true_answer6="Гиза"
+true_answer7="Оттава"
+
+score=0
+
+answer1=input(question1)
+if answer1==true_answer1:
+    score+=1
+answer2=input(question2)
+if answer2==true_answer2:
+    score+=1
+answer3=input(question3)
+if answer3==true_answer3:
+    score+=1
+answer4=input(question4)
+if answer4==true_answer4:
+    score+=1
+answer5=input(question5)
+if answer5==true_answer5:
+    score+=1
+answer6=input(question6)
+if answer6==true_answer6:
+    score+=1
+answer7=input(question7)
+if answer7==true_answer7:
+    score+=1
+
+if score>=5:
+    print("Вы набрали много баллов,вас можно считать экспертом")
+else:
+    print("Вы набрали мало  баллов,расширяйте свой кругозор,вам есть, куда стремится")
 
 # number=20
 # number2=2
